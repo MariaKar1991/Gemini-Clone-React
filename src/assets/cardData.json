@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Suggest useful React hooks",
+     "imagePath": "/images/compass_icon.png"
+  },
+   {
+    "title": "What is the React's useContext?",
+     "imagePath": "/images/bulb_icon.png"
+  },
+  {
+    "title": "What are some good resources to learn React?",
+     "imagePath": "/images/message_icon.png"
+  },
+  {
+    "title": "What is the latest version of React?",
+     "imagePath": "/images/code_icon.png"
+  }
+]
