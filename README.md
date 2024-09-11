@@ -1,8 +1,16 @@
-# React + Vite
+# Gemini AI Clone React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React app is a clone of the Google Gemini AI assistant. 
+It allows users to input prompts and receive AI-generated responses.
 
-Currently, two official plugins are available:
+## App's Vercel Link: 
+https://ai-gemini-clone-react.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Generative AI functionality powered by OpenAI's GPT-3.
+- Pre-loader animation for loading responses.
+- Typing effect for a more natural feel.
+- Sidebar for saving prompts.
+- Responsive design for various screen sizes.
+
+## Happy coding 🚀
