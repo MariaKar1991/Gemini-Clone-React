@@ -29,13 +29,18 @@ const ContextProvider = (props) => {
     setLoading(true)
     setShowResult(true)
     let response
-    if (prompt !== undefined) {
-      response = await runChat(prompt)
-      setRecentPrompt(prompt)
-    } else {
-      setPrevPrompts((prev) => [...prev, input])
-      setRecentPrompt(input)
-      response = await runChat(input)
+
+    try {
+      if (prompt !== undefined) {
+        response = await runChat(prompt)
+        setRecentPrompt(prompt)
+      } else {
+        setPrevPrompts((prev) => [...prev, input])
+        setRecentPrompt(input)
+        response = await runChat(input)
+      }
+    } catch (error) {
+      response = error.toString()
     }
 
     // Bold when ** is found
